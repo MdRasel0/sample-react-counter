@@ -46,7 +46,7 @@ pipeline {
 
     post {
         success {
-            echo "✅ React app successfully built and deployed via Jenkins with NodeJS tool!"
+            echo "✅ React app deployed successfully!"
         }
         failure {
             echo "❌ Build or deploy failed!"
